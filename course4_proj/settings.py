@@ -42,6 +42,7 @@ class Dev(Configuration):
         'django.contrib.messages',
         'django.contrib.staticfiles',
         "movies",
+        "gh",
     ]
 
     MIDDLEWARE = [
@@ -160,4 +161,4 @@ class Dev(Configuration):
     CSRF_COOKIE_SAMESITE = "None"
     SESSION_COOKIE_SAMESITE = "None"
 
-    OMDB_KEY = "abc123"
+    OMDB_KEY = "redacted"
